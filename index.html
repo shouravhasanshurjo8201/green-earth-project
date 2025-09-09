@@ -75,6 +75,43 @@
     <!-- header section End -->
       <!-- Main Section start -->
     <main class="w-full bg-[#e8f7ee]">
+        <!-- Choose Your Trees section start  -->
+        <section class="w-full md:w-11/12 m-auto pt-15 ">
+            <div>
+                <h1 class="text-center text-[30px] font-bold mb-8">Choose Your Trees</h1>
+            </div>
+            <div class="md:grid md:grid-cols-12">
+                <div class="md:col-span-2 p-2">
+                    <h1 class="text-[25px] text-center md:text-left font-bold pb-5">Categories</h1>
+                    <div id="Categories" class="flex md:flex-col justify-center flex-wrap ">
+                        
+                    </div>
+                </div>
+                <div class="md:col-span-8 ">
+                    <div id="content-id" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 p-5">
+                        <div></div>
+                        <div id="spinner" class="text-center hidden">
+                            <h1 class="loading loading-bars loading-xl"></h1>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="col-span-2 ">
+                    <div class="bg-white rounded-xl shadow-sm p-2 my-5 min-h-[150px] md:min-h-[405px]">
+                        <h1 class="text-[18px] font-bold p-2">Your Cart</h1>
+                        <div id="cart">
+                            
+                            
+                        </div><hr>
+                        <div class="flex justify-between items-center p-2 font-bold">
+                            <span>Total:</span>
+                            <span><i class="fa-solid fa-bangladeshi-taka-sign"></i><span id="total-taka">00.00</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Choose Your Trees section End  -->
         <!-- About the Campaign section start  -->
         <section class="md:w-6/12 md:m-auto">
             <div>
@@ -122,8 +159,8 @@
                     <input class="w-full bg-white p-3 rounded-md border-none mb-5 text-[#1F2937] " type="text" placeholder="Your Name">
                     <input class="w-full bg-white p-3 rounded-md border-none mb-5 text-[#1F2937] " type="email" placeholder="Your Email Address"><br>
                     <select class=" select w-full bg-white p-3 rounded-md border-none mb-5 text-[#1F2937]">
-                        <option disabled selected>Number Of Tree</option>
-                        <option>1 Tree - $5</option>
+                        <option disabled selected class="w-full bg-white p-3 rounded-md border-none mb-5 text-[#1F2937]">Number Of Tree</option>
+                        <option >1 Tree - $5</option>
                         <option>5 Tree - $25</option>
                         <option>10 Tree - $50</option>
                     </select><br>
